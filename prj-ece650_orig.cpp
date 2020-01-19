@@ -131,7 +131,6 @@ void CNF_SAT_VC(int V)
             cout<<vc[i];
     }
     cout<<endl;
-    //return vc;    
 }
  
 void APPROX_VC_1(vector<int> adj[],int V)
