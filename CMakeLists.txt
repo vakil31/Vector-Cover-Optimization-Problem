@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
-project(prj-ece650)
+project(a4-ece650)
 
 if (EXISTS "${CMAKE_SOURCE_DIR}/minisat")
   add_subdirectory(minisat)
@@ -19,9 +19,9 @@ include_directories(${CMAKE_SOURCE_DIR}/minisat)
 
 # create the main executable
 ## add additional .cpp files if needed
-add_executable(prj-ece650 prj-ece650.cpp)
+add_executable(a4-ece650 a4-ece650.cpp)
 # link MiniSAT libraries
-target_link_libraries(prj-ece650 minisat-lib-static)
+target_link_libraries(a4-ece650 minisat-lib-static)
 
 # create the executable for tests
 #add_executable(test test.cpp)
